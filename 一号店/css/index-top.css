@@ -1,0 +1,101 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+/*页头样式*/
+.t{
+	background-color: #FAFAFA;
+}
+.top{
+	width: 1200px;
+	font-size: 12px;
+	height: 35px;
+	line-height: 35px;
+	margin: 0 auto;
+}
+/*页头左边*/
+.top .topLeft{
+	float: left;
+	color: #666666;
+}
+.top .topLeft a{
+	color: #2E66CC;
+	text-decoration: none;
+}
+/*页头右边*/
+.top .topRight{
+	float: right;
+}
+.top .topRight li{border: 1px solid #FAFAFA;
+	line-height: 24px;
+	position: relative;
+	display: inline-block;
+	padding: 0 6px;
+	background: url(../img/indexhead_sprite1111.png) no-repeat right -594px;
+}
+.top .topRight li a{
+	background: url(../img/indexhead_sprite1111.png) no-repeat right -259px;
+	padding-right: 20px;
+	color: #666666;
+	text-decoration: none;
+}
+.top .topRight .topRight-3{
+	padding-left: 20px;
+	background: url(../img/indexhead_sprite1111.png) no-repeat right -594px,url(../img/indexhead_sprite1111.png) no-repeat -282px -226px;
+}
+/*去掉一级导航多余的背景图*/
+.top .topRight .topRight-6{
+	background: none;
+}
+.top .topRight .topRight-6 a{
+	background: none;
+	padding: 0px;
+}
+/*所有二级导航的样式*/
+.top .topRight li ul li{
+	background: none;
+	width: 100%;
+	/*text-align: center;*/
+	box-sizing: border-box;
+}
+.top .topRight li ul li a{
+	background: none;
+	padding: 1px;
+}
+/*隐藏所有二级导航*/
+.top .topRight li ul{
+	position: absolute;
+	display: none;
+	left: -1px;
+	width: 100%;
+	z-index: 1;
+}
+/*鼠标移动显示二级菜单及样式*/
+.top .topRight li:hover ul{
+	display: block;
+	background-color: white;
+	border: 1px solid #e1e1e1;
+	border-top: none;
+}
+.top .topRight li:hover{
+	background-color: white;
+	border: 1px solid #e1e1e1;
+	border-bottom: none;
+	text-decoration: underline;
+}
+.top .topRight li:hover ul li{
+	border: none;
+}
+.top .topRight li ul li:hover{
+	background-color: #DADADA;
+}
+.top .topRight li ul li a:hover{
+	color: red;
+}
+.top .topRight .topRight-6:hover{
+	border: 1px solid #e1e1e1;
+}
+

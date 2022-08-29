@@ -1,0 +1,32 @@
+.bottom{
+	background-color: #F9F9F9;
+	font-family: "微软雅黑";
+	padding-top: 40px;
+}
+.bottom .bottom1{
+	margin: 0px auto;
+	font-size: 12px;
+	padding-top: 45px;
+	overflow: hidden;
+	text-align: center;
+	color: #999999;
+	background-color: white;
+}
+.bottom .bottom1 ul{
+	padding-bottom: 25px;
+	padding-left: 251px;
+}
+.bottom .bottom1 ul:first-child{
+	padding-left: 100px;
+}
+.bottom .bottom1 ul li{
+	float: left;
+	border-left: 1px solid #999999;
+	list-style-type: none;
+	padding: 0px 16px;
+	height: 12px;
+	line-height: 12px;
+}
+.bottom .bottom1 ul li:first-child{
+	border-left: none;
+}
